@@ -18,7 +18,7 @@ const Eboard = () => {
           <div key={index} className="eboard-member">
             <img src={process.env.PUBLIC_URL + member.image} className="eboard-img" alt={member.name} />
             <br/>
-            <h6>{member.name}</h6>
+            <h5><strong>{member.name}</strong></h5>
             <p>{member.role}</p>
           </div>
         ))}

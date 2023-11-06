@@ -20,8 +20,6 @@ const Gallery = () => {
         {galleryImages.map((image, index) => (
           <div key={index} className="gallery-item">
               <img src={process.env.PUBLIC_URL + image.src} className="gallery-img" alt={image.caption} />
-              <br/>
-              <h5>{image.caption}</h5>
           </div>
         ))}
       </div>
