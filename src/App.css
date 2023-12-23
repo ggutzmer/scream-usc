@@ -12,8 +12,14 @@
   align-items: center;
   justify-content: space-around; 
   height: 100vh;
+  overflow: auto;
   background-color: #fdede3;
   color: #124269;
+}
+
+.home-img {
+  max-width: 100;
+  margin-top: 50%;
 }
 
 .home-section {

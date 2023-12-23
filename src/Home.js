@@ -4,8 +4,10 @@ import './App.css';
 const Home = () => {
   return (
     <div className="home">
+      <img src={process.env.PUBLIC_URL + "background.png"} alt="Home img" className="home-img"/>
       <div className="home-section">
-        <img src={process.env.PUBLIC_URL + "logo.png"} className="home-logo" alt="Home"/>
+        {/* <img src={process.env.PUBLIC_URL + "background.png"} alt="Home img" className="home-logo"/> */}
+        {/* <img src={process.env.PUBLIC_URL + "logo.png"} className="home-logo" alt="Home"/> */}
         <div className="home-info">
           <h1> Welcome! </h1>
           <br/>

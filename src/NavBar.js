@@ -9,7 +9,7 @@ const NavBar = () => {
                 <Navbar.Brand href="/">
                     <img 
                         src={process.env.PUBLIC_URL + "logo.png"}
-                        width="50"
+                        width="70"
                         height="50"
                         className="d-inline-block align-top"
                         alt="Logo"
